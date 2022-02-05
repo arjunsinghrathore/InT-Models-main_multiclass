@@ -1,0 +1,9 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 3733273
+##  Job Name : color_CNN
+##  Nodelist : gpu2005
+##      CPUs : 1
+##  Mem/Node : 30720 MB
+## Directory : /gpfs/data/tserre/aarjun1/pathtracker/mot/InT-Models-main
+##   Started : Sat Jan  1 14:58:54 EST 2022
+###############################################################################

@@ -1,0 +1,14 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 3735728
+##  Job Name : color_CNN
+##  Nodelist : gpu2005
+##      CPUs : 1
+##  Mem/Node : 30720 MB
+## Directory : /gpfs/data/tserre/aarjun1/pathtracker/mot/InT-Models-main
+##   Started : Sat Jan  1 16:49:46 EST 2022
+###############################################################################
+Tensorflow version 2.7.0
+Failed to import slowfast.
+Failed to import spatial sampler.
+Found dataset: /users/aarjun1/scratch/pathtracker_data/mot/tfrecords/
+Loading training dataset

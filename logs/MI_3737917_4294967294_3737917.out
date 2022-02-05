@@ -1,0 +1,25 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 3737917
+##  Job Name : color_CNN
+##  Nodelist : gpu2007
+##      CPUs : 1
+##  Mem/Node : 30720 MB
+## Directory : /gpfs/data/tserre/aarjun1/pathtracker/mot/InT-Models-main
+##   Started : Sun Jan  2 08:09:45 EST 2022
+###############################################################################
+Tensorflow version 2.7.0
+Failed to import slowfast.
+Failed to import spatial sampler.
+Found dataset: /users/aarjun1/scratch/pathtracker_data/mot/tfrecords/
+Loading training dataset
+Loading validation dataset
+Init model ffhgru full bptt penalty:  False
+107582
+Loading parallel finished on GPU count: 4
+Including parameters ['module.bn.weight', 'module.bn.bias', 'module.preproc.weight', 'module.preproc.bias', 'module.unit1.w_exc', 'module.unit1.w_inh', 'module.unit1.alpha', 'module.unit1.mu', 'module.unit1.gamma', 'module.unit1.kappa', 'module.unit1.w', 'module.unit1.a_w_gate.weight', 'module.unit1.a_w_gate.bias', 'module.unit1.a_u_gate.weight', 'module.unit1.a_u_gate.bias', 'module.unit1.i_w_gate.weight', 'module.unit1.i_w_gate.bias', 'module.unit1.i_u_gate.weight', 'module.unit1.i_u_gate.bias', 'module.unit1.e_w_gate.weight', 'module.unit1.e_w_gate.bias', 'module.unit1.e_u_gate.weight', 'module.unit1.e_u_gate.bias', 'module.unit1.bn.0.weight', 'module.unit1.bn.0.bias', 'module.unit1.bn.1.weight', 'module.unit1.bn.1.bias', 'module.readout_conv.weight', 'module.readout_conv.bias', 'module.target_conv.weight', 'module.target_conv.bias', 'module.readout_dense.weight', 'module.readout_dense.bias']
+Epoch: [0][0/167]  lr: 0.0003  Time: 10.583 (itavg:10.583) (10.583)  Data: 0.581 (0.581) Loss: 1.13268614 (1.13268614) (1.13268614)  bal_acc: 33.88889 (33.88889) preci: 0.33889 (0.33889) rec: 0.33889 (0.33889)  f1: 0.33889 (0.33889) jvpen: 1.000000000000 10.583 losscale:1.00000
+Epoch: [0][20/167]  lr: 0.0003  Time: 1.449 (itavg:1.520) (1.952)  Data: 0.053 (0.091) Loss: 1.10562038 (1.10977817) (1.11086902)  bal_acc: 31.11111 (32.98942) preci: 0.31111 (0.32989) rec: 0.31111 (0.32989)  f1: 0.31111 (0.32989) jvpen: 1.000000000000 30.399 losscale:1.00000
+Epoch: [0][40/167]  lr: 0.0003  Time: 1.456 (itavg:1.460) (1.712)  Data: 0.049 (0.077) Loss: 1.09367383 (1.09892446) (1.10504241)  bal_acc: 36.66667 (33.41464) preci: 0.36667 (0.33415) rec: 0.36667 (0.33415)  f1: 0.36667 (0.33415) jvpen: 1.000000000000 29.194 losscale:1.00000
+Epoch: [0][60/167]  lr: 0.0003  Time: 1.465 (itavg:1.461) (1.629)  Data: 0.058 (0.070) Loss: 1.09997070 (1.09937564) (1.10318445)  bal_acc: 31.66667 (33.39709) preci: 0.31667 (0.33397) rec: 0.31667 (0.33397)  f1: 0.31667 (0.33397) jvpen: 1.000000000000 29.212 losscale:1.00000
+Epoch: [0][80/167]  lr: 0.0003  Time: 1.463 (itavg:1.459) (1.587)  Data: 0.046 (0.066) Loss: 1.09897959 (1.09897236) (1.10214443)  bal_acc: 32.77778 (33.40878) preci: 0.32778 (0.33409) rec: 0.32778 (0.33409)  f1: 0.32778 (0.33409) jvpen: 1.000000000000 29.179 losscale:1.00000
+Epoch: [0][100/167]  lr: 0.0003  Time: 1.451 (itavg:1.460) (1.562)  Data: 0.043 (0.065) Loss: 1.09393263 (1.10008154) (1.10173593)  bal_acc: 39.44445 (33.25633) preci: 0.39444 (0.33256) rec: 0.39444 (0.33256)  f1: 0.39444 (0.33256) jvpen: 1.000000000000 29.201 losscale:1.00000

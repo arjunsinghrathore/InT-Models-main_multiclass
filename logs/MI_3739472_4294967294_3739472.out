@@ -1,0 +1,39 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 3739472
+##  Job Name : color_CNN
+##  Nodelist : gpu2009
+##      CPUs : 1
+##  Mem/Node : 30720 MB
+## Directory : /gpfs/data/tserre/aarjun1/pathtracker/mot/InT-Models-main_temp
+##   Started : Mon Jan  3 01:36:49 EST 2022
+###############################################################################
+Tensorflow version 2.7.0
+Failed to import slowfast.
+Failed to import spatial sampler.
+Found dataset: /users/aarjun1/scratch/pathtracker_data/mot/tfrecords/
+Loading training dataset
+Loading validation dataset
+Init model ffhgru full bptt penalty:  False
+107582
+Loading parallel finished on GPU count: 4
+Including parameters ['module.bn.weight', 'module.bn.bias', 'module.preproc.weight', 'module.preproc.bias', 'module.unit1.w_exc', 'module.unit1.w_inh', 'module.unit1.alpha', 'module.unit1.mu', 'module.unit1.gamma', 'module.unit1.kappa', 'module.unit1.w', 'module.unit1.a_w_gate.weight', 'module.unit1.a_w_gate.bias', 'module.unit1.a_u_gate.weight', 'module.unit1.a_u_gate.bias', 'module.unit1.i_w_gate.weight', 'module.unit1.i_w_gate.bias', 'module.unit1.i_u_gate.weight', 'module.unit1.i_u_gate.bias', 'module.unit1.e_w_gate.weight', 'module.unit1.e_w_gate.bias', 'module.unit1.e_u_gate.weight', 'module.unit1.e_u_gate.bias', 'module.unit1.bn.0.weight', 'module.unit1.bn.0.bias', 'module.unit1.bn.1.weight', 'module.unit1.bn.1.bias', 'module.readout_conv.weight', 'module.readout_conv.bias', 'module.target_conv.weight', 'module.target_conv.bias', 'module.readout_dense.weight', 'module.readout_dense.bias']
+Epoch: [0][0/167]  lr: 0.0003  Time: 15.419 (itavg:15.419) (15.419)  Data: 0.599 (0.599) Loss: 1.19541609 (1.19541609) (1.19541609)  bal_acc: 31.11111 (31.11111) preci: 0.31111 (0.31111) rec: 0.31111 (0.31111)  f1: 0.31111 (0.31111) jvpen: 1.000000000000 15.419 losscale:1.00000
+Epoch: [0][20/167]  lr: 0.0003  Time: 1.366 (itavg:1.434) (2.100)  Data: 0.050 (0.084) Loss: 1.12741804 (1.13809845) (1.14082787)  bal_acc: 32.22222 (34.20635) preci: 0.32222 (0.34206) rec: 0.32222 (0.34206)  f1: 0.32222 (0.34206) jvpen: 1.000000000000 28.687 losscale:1.00000
+Epoch: [0][40/167]  lr: 0.0003  Time: 1.362 (itavg:1.361) (1.740)  Data: 0.038 (0.068) Loss: 1.11453879 (1.12431779) (1.13277417)  bal_acc: 33.88889 (33.80759) preci: 0.33889 (0.33808) rec: 0.33889 (0.33808)  f1: 0.33889 (0.33808) jvpen: 1.000000000000 27.225 losscale:1.00000
+Epoch: [0][60/167]  lr: 0.0003  Time: 1.354 (itavg:1.362) (1.616)  Data: 0.045 (0.062) Loss: 1.11417937 (1.10684966) (1.12427433)  bal_acc: 29.44444 (33.87068) preci: 0.29444 (0.33871) rec: 0.29444 (0.33871)  f1: 0.29444 (0.33871) jvpen: 1.000000000000 27.231 losscale:1.00000
+Epoch: [0][80/167]  lr: 0.0003  Time: 1.363 (itavg:1.360) (1.553)  Data: 0.044 (0.058) Loss: 1.09792125 (1.09955244) (1.11817016)  bal_acc: 37.77778 (33.90947) preci: 0.37778 (0.33909) rec: 0.37778 (0.33909)  f1: 0.37778 (0.33909) jvpen: 1.000000000000 27.204 losscale:1.00000
+Epoch: [0][100/167]  lr: 0.0003  Time: 1.351 (itavg:1.359) (1.514)  Data: 0.042 (0.057) Loss: 1.09959304 (1.09856938) (1.11428882)  bal_acc: 32.77778 (33.94940) preci: 0.32778 (0.33949) rec: 0.32778 (0.33949)  f1: 0.32778 (0.33949) jvpen: 1.000000000000 27.177 losscale:1.00000
+Epoch: [0][120/167]  lr: 0.0003  Time: 1.354 (itavg:1.362) (1.489)  Data: 0.043 (0.055) Loss: 1.10174847 (1.09963411) (1.11186655)  bal_acc: 31.11111 (33.84298) preci: 0.31111 (0.33843) rec: 0.31111 (0.33843)  f1: 0.31111 (0.33843) jvpen: 1.000000000000 27.238 losscale:1.00000
+Epoch: [0][140/167]  lr: 0.0003  Time: 1.361 (itavg:1.363) (1.471)  Data: 0.033 (0.054) Loss: 1.10282135 (1.09888342) (1.11002497)  bal_acc: 26.66667 (33.87707) preci: 0.26667 (0.33877) rec: 0.26667 (0.33877)  f1: 0.26667 (0.33877) jvpen: 1.000000000000 27.266 losscale:1.00000
+Epoch: [0][160/167]  lr: 0.0003  Time: 1.344 (itavg:1.360) (1.457)  Data: 0.015 (0.052) Loss: 1.09824836 (1.09923542) (1.10868466)  bal_acc: 34.44445 (33.78537) preci: 0.34444 (0.33785) rec: 0.34444 (0.33785)  f1: 0.34444 (0.33785) jvpen: 1.000000000000 27.207 losscale:1.00000
+0
+Test: [0/167]	 Time: 1.192	 Loss: 1.09872365 ( 1.09872365)	Bal_acc: 31.11111259 preci: 0.31111 (0.31111) rec: 0.31111(0.31111) f1: 0.31111 (0.31111)
+Test: [3600/167]	 Time: 0.645	 Loss: 1.10137630 ( 1.09860171)	Bal_acc: 33.99471038 preci: 0.28333 (0.33995) rec: 0.28333(0.33995) f1: 0.28333 (0.33995)
+Test: [7200/167]	 Time: 0.630	 Loss: 1.09880507 ( 1.09839925)	Bal_acc: 34.33604445 preci: 0.31667 (0.34336) rec: 0.31667(0.34336) f1: 0.31667 (0.34336)
+Test: [10800/167]	 Time: 0.623	 Loss: 1.09802926 ( 1.09870307)	Bal_acc: 33.91621221 preci: 0.31667 (0.33916) rec: 0.31667(0.33916) f1: 0.31667 (0.33916)
+Test: [14400/167]	 Time: 0.619	 Loss: 1.09669816 ( 1.09887577)	Bal_acc: 33.55967159 preci: 0.38889 (0.33560) rec: 0.38889(0.33560) f1: 0.38889 (0.33560)
+Test: [18000/167]	 Time: 0.618	 Loss: 1.09766173 ( 1.09892722)	Bal_acc: 33.42134304 preci: 0.38333 (0.33421) rec: 0.38333(0.33421) f1: 0.38333 (0.33421)
+Test: [21600/167]	 Time: 0.617	 Loss: 1.10118997 ( 1.09882574)	Bal_acc: 33.57667672 preci: 0.31667 (0.33577) rec: 0.31667(0.33577) f1: 0.31667 (0.33577)
+Test: [25200/167]	 Time: 0.616	 Loss: 1.09777188 ( 1.09891741)	Bal_acc: 33.53033975 preci: 0.36111 (0.33530) rec: 0.36111(0.33530) f1: 0.36111 (0.33530)
+Test: [28800/167]	 Time: 0.614	 Loss: 1.09704316 ( 1.09910375)	Bal_acc: 33.33678491 preci: 0.33889 (0.33337) rec: 0.33889(0.33337) f1: 0.33889 (0.33337)
+val f 0.3331994891884815 val loss 1.0991249544074737 val acc 33.319947392107494
